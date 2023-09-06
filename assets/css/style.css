@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;700&family=Sunflower:wght@300;500;700&display=swap');
+
+:root {
+    --ff-space: 'Space Grotesk', sans-serif;
+    --ff-sun: 'Sunflower', sans-serif;
+}
+
+.ff-space {
+    font-family: var(--ff-space);
+}
+
+.ff-sun {
+    font-family: var(--ff-sun);
+}
+
+.container {
+    max-width: 1140px !important;
+}
+
+.bg-image {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.bg-image1 {
+    background-image: url(/assets/images/bg-images.png);
+}
+
+.section-1-bg {
+    background-image: url(/assets/images/section-bg.png);
+}
+
+.bg-image2 {
+    background-image: url(/assets/images/section-bg.png);
+}
+
+.bg-image3 {
+    background-image: url(/assets/images/Rectangle\ 5project-bg.png);
+}
+
+.bglayer1 {
+    background-image: url(/assets/images/sec-p-1.png);
+}
+
+.bglayer2 {
+    background-image: url(/assets/images/sec-p-2.png);
+}
+
+.grid1 {
+    border: 1px solid rgba(255, 255, 255, 0.10) !important;
+    background: rgba(255, 255, 255, 0.10) !important;
+    box-shadow: 0px -1px 20px 0px rgba(255, 255, 255, 0.10) !important;
+    backdrop-filter: blur(15px) !important;
+}
+.grid2:hover {
+    background: rgba(255, 255, 255, 0.10) !important;
+    box-shadow: 0px -1px 20px 0px rgba(255, 255, 255, 0.10) !important;
+    backdrop-filter: blur(15px) !important;
+    /* background-image: url(/assets/images/svg-ellips.png) !important;
+    background-repeat: no-repeat !important;
+    background-position-x: right !important;
+    background-position-y: top !important; */
+}
+.title{
+    border-radius: 0px 0px 8px 8px;
+background: rgba(255, 255, 255, 0.30);
+box-shadow: 0px -1px 11px 0px rgba(255, 255, 255, 0.10);
+backdrop-filter: blur(4.5px);
+}
+.line1 {
+    display: block;
+    height: 1px;
+    background-color: #FFF !important;
+    max-width: 344.398px;
+    stroke-width: 1px;
+    stroke: #FFF;
+    transform: rotate(-2.484deg);
+}
+
+.line2 {
+    display: block;
+    height: 1px;
+    background-color: black !important;
+    max-width: 344.398px;
+    stroke-width: 1px;
+    stroke: black;
+    transform: rotate(-2.484deg);
+}
+
+.ellipse {
+    width: 184px;
+    height: 184px;
+    flex-shrink: 0;
+    background: #FFF;
+    filter: blur(124px);
+    overflow: hidden;
+}
+
+.item1 {
+    top: -2%;
+    left: -3%;
+}
+
+.item2 {
+    top: 35%;
+    right: 0;
+}
+
+.item3 {
+    top: 50%;
+    left: -2%;
+}
+.item4 {
+    top: 73%;
+    right: 0;
+}
+.tem:hover{
+    opacity: 1;
+}
+.grid2:hover div div div p{
+    opacity: 1;
+}
