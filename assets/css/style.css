@@ -57,10 +57,6 @@
     background: rgba(255, 255, 255, 0.10) !important;
     box-shadow: 0px -1px 20px 0px rgba(255, 255, 255, 0.10) !important;
     backdrop-filter: blur(15px) !important;
-    /* background-image: url(/assets/images/svg-ellips.png) !important;
-    background-repeat: no-repeat !important;
-    background-position-x: right !important;
-    background-position-y: top !important; */
 }
 .title{
     border-radius: 0px 0px 8px 8px;
@@ -115,9 +111,9 @@ backdrop-filter: blur(4.5px);
     top: 73%;
     right: 0;
 }
-.tem:hover{
-    opacity: 1;
-}
-.grid2:hover div div div p{
-    opacity: 1;
+.tem{
+    border-radius: 0px 0px 8px 8px;
+background: rgba(255, 255, 255, 0.30);
+box-shadow: 0px -1px 11px 0px rgba(255, 255, 255, 0.10);
+backdrop-filter: blur(4.5px);
 }
