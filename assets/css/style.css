@@ -78,10 +78,10 @@ backdrop-filter: blur(4.5px);
     display: block;
     height: 1px;
     background-color: black !important;
-    max-width: 27%;
+    max-width: 13%;
     stroke-width: 1px;
     stroke: black;
-    transform: rotate(-2.484deg);
+    transform: rotate(-5.484deg);
 }
 
 .ellipse {
