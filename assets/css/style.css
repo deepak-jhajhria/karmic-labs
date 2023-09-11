@@ -68,7 +68,7 @@ backdrop-filter: blur(4.5px);
     display: block;
     height: 1px;
     background-color: #FFF !important;
-    max-width: 344.398px;
+    max-width: 27%;
     stroke-width: 1px;
     stroke: #FFF;
     transform: rotate(-2.484deg);
@@ -78,7 +78,7 @@ backdrop-filter: blur(4.5px);
     display: block;
     height: 1px;
     background-color: black !important;
-    max-width: 344.398px;
+    max-width: 27%;
     stroke-width: 1px;
     stroke: black;
     transform: rotate(-2.484deg);
@@ -116,4 +116,21 @@ backdrop-filter: blur(4.5px);
 background: rgba(255, 255, 255, 0.30);
 box-shadow: 0px -1px 11px 0px rgba(255, 255, 255, 0.10);
 backdrop-filter: blur(4.5px);
+}
+.px-17{
+    padding-left: 66px;
+    padding-right: 66px;
+}
+.circle {
+    content: "";
+    position: absolute;
+    top: -25px;
+    right: -25px;
+    width: 63px;
+    height: 64px;
+    border-radius: 50%;
+    background: white;
+    box-shadow: 0px 4px 16px 0px #FFFFFF1A;
+    z-index: -1;
+    /* display: none; */
 }
