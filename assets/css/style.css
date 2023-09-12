@@ -15,6 +15,8 @@
 
 .container {
     max-width: 1140px !important;
+    padding-left: 12px !important;
+    padding-right: 12px !important;
 }
 
 .bg-image {
